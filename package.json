@@ -1,0 +1,17 @@
+{
+  "name": "awstats_scrapper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "bin": "bin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "pkg --out-path dist . && cp -R node_modules/puppeteer/.local-chromium dist/puppeteer"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pkg": "^4.4.2",
+    "puppeteer": "^2.0.0"
+  }
+}
